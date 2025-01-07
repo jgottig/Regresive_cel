@@ -30,7 +30,7 @@ body {
   margin-top: 14px;
 }
 .cartel > div > h3 {
-  margin-top: 20px; /* Ajustado */
+  margin-top: 32px; /* Ajustado */
   font-size: 10px; /* Reducido para caber mejor */
   font-weight: normal;
 }
