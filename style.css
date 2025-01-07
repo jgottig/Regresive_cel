@@ -26,7 +26,7 @@ body {
   font-size: 20px; /* Reducido a 20px */
   font-family: 'Chela One', sans-serif;
   animation: fade 3s;
-  line-height: 20px; /* Ajustado */
+  line-height: 10px; /* Ajustado */
   margin-top: 14px;
 }
 .cartel > div > h3 {
