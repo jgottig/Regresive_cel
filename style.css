@@ -1,0 +1,101 @@
+body {
+  background-color: black;
+  color: white; /* Asegúrate de que el texto sea visible sobre el fondo negro */
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.contenedor {
+  color: #ffffff;
+  text-align: center;
+}
+.cartel {
+  width: 60px; /* Reducido a 60px */
+  height: 60px; /* Reducido a 60px */
+  padding: 5px 0; /* Ajustado */
+  text-align: center;
+  display: inline-block;
+  margin: 3px; /* Menor separación entre los círculos */
+  border: 2px solid #ffffff; /* Mantiene proporción */
+  border-radius: 30px; /* Ajustado para mantener el círculo */
+}
+.cartel > div {
+  font-size: 20px; /* Reducido a 20px */
+  font-family: 'Chela One', sans-serif;
+  animation: fade 3s;
+  line-height: 20px; /* Ajustado */
+  margin-top: 5px;
+}
+.cartel > div > h3 {
+  margin-top: 5px; /* Ajustado */
+  font-size: 10px; /* Reducido para caber mejor */
+  font-weight: normal;
+}
+.h3 {
+  bottom: 0;
+  margin: 0 auto;
+}
+.contenedor {
+  margin-top: 3%;
+}
+.contenido {
+  width: 90%; /* Ajustado para pantallas pequeñas */
+  margin: 0 auto;
+  border: 0px solid rgb(255, 255, 255);
+  z-index: 10;
+}
+li {
+  display: inline-block;
+  font-size: 1em; /* Reducido */
+  list-style-type: none;
+  padding: 0.5em; /* Menor padding */
+  text-transform: uppercase;
+}
+li span {
+  display: block;
+  font-size: 2rem; /* Reducido */
+}
+.numeros {
+  font-family: 'Chela One', sans-serif;
+  font-size: 30px; /* Reducido */
+  transition: .0s;
+  animation-name: fade;
+  animation-duration: 3s;
+}
+.responsivo1 {
+  display: inline-block;
+}
+.responsivo2 {
+  display: inline-block;
+}
+@media (max-width: 450px) {
+  .contenedor {
+    margin-top: 10%;
+  }
+  .cartel {
+    height: 50px; /* Menor tamaño para pantallas pequeñas */
+    width: 50px;
+    margin: 2px; /* Menor separación entre círculos */
+  }
+  .cartel > div {
+    font-size: 16px; /* Más pequeño para celulares */
+  }
+  .cartel > div > h3 {
+    font-size: 8px; /* Más pequeño para celulares */
+    margin-top: 3px;
+  }
+}
+@keyframes fade {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
