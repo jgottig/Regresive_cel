@@ -27,10 +27,10 @@ body {
   font-family: 'Chela One', sans-serif;
   animation: fade 3s;
   line-height: 20px; /* Ajustado */
-  margin-top: 5px;
+  margin-top: 14px;
 }
 .cartel > div > h3 {
-  margin-top: 5px; /* Ajustado */
+  margin-top: 20px; /* Ajustado */
   font-size: 10px; /* Reducido para caber mejor */
   font-weight: normal;
 }
