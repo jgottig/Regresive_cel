@@ -25,12 +25,12 @@ body {
 .cartel > div {
   font-size: 20px; /* Reducido a 20px */
   font-family: 'Chela One', sans-serif;
-  animation: fade 3s;
-  line-height: 10px; /* Ajustado */
+  animation: fade 0s;
+  line-height: 4px; /* Ajustado */
   margin-top: 14px;
 }
 .cartel > div > h3 {
-  margin-top: 55px; /* Ajustado */
+  margin-top: 5px; /* Ajustado */
   font-size: 10px; /* Reducido para caber mejor */
   font-weight: normal;
 }
